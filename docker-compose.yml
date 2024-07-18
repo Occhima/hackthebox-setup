@@ -1,0 +1,13 @@
+services:
+  kali-bleeding-edge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: scriptkiddie
+    container_name: kali-container
+    volumes:
+      - ./:/home/htb
+    tty: true
+    stdin_open: true
+    network_mode: "host"
+    command: /bin/bash
