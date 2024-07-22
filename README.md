@@ -90,6 +90,9 @@ nc -lvnp 4444
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue to improve this project.
 
+## TODO
+- [ ] Use python-pipx to install python apps in isolated envs
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
